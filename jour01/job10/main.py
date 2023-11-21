@@ -1,6 +1,6 @@
 # On initialise le montant initial et le rendement annuel.
-montant_initial = 4000
-rendement_annuel = 102
+montant_initial = 4391
+rendement_annuel = 30
 
 # Affiche les informations pour l'année 2024.
 print("2024:",
