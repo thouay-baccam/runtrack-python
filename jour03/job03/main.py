@@ -1,16 +1,14 @@
-# Définition de la fonction Add
-def Add(num1, num2):
-    """
-    Cette fonction prend deux nombres entiers en paramètres
-    et affiche leur somme.
-    """
-    # Calcul de la somme des deux nombres
-    sum_result = num1 + num2
+def Add(a, b):
+    # Vérifie si les nombres sont des entiers
+    if a % 1 != 0 or b % 1 != 0:
+        print('Nombre invalide. Veuillez entrer des nombres entiers.')
+    else:
+        # Ajoute les deux nombres s'ils sont des entiers
+        result = a + b
+        print(f"La somme de {a} et {b} est : {result}")
 
-    # Affichage du résultat
-    print("Somme:", sum_result)
-
-# Appels de la fonction avec différents paramètres
-Add(46, 102)
-Add(1, 7)
-Add(-5, 8)
+# Appels de la fonction avec différents jeux de nombres
+Add(1, 1) 
+Add(40, 2)  
+Add(954, 238) 
+Add(25.4, 21.8) 
